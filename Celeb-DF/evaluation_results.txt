@@ -1,0 +1,16 @@
+Test Loss: 1.3248
+Test Acc: 50.42%
+Confusion Matrix:
+[[TN=2473 FP=2851]
+ [FN=4812 TP=5321]]
+Real Accuracy: 46.45%
+Fake Accuracy: 52.51%
+Classification Report:
+              precision    recall  f1-score   support
+
+       Real       0.34      0.46      0.39      5324
+       Fake       0.65      0.53      0.58     10133
+
+    accuracy                           0.50     15457
+   macro avg       0.50      0.49      0.49     15457
+weighted avg       0.54      0.50      0.52     15457
